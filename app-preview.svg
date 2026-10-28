@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="540" viewBox="0 0 840 540" fill="none">
+  <defs>
+    <linearGradient id="background" x1="140" y1="0" x2="740" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151a16"/>
+      <stop offset="1" stop-color="#0f1210"/>
+    </linearGradient>
+    <linearGradient id="qr" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d5ff9c"/>
+      <stop offset="1" stop-color="#b9f45e"/>
+    </linearGradient>
+    <pattern id="grid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M8 0H0V8" stroke="#293129" stroke-width=".45"/>
+    </pattern>
+    <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.25" fill="#222a23"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+  </defs>
+
+  <rect width="840" height="540" rx="18" fill="url(#background)"/>
+  <path d="M0 0H840V540H0z" fill="url(#grid)" opacity=".29"/>
+
+  <rect width="152" height="540" fill="#121613"/>
+  <path d="M152 0v540" stroke="#292f2a"/>
+  <rect x="22" y="21" width="27" height="27" rx="8" fill="#b9f45e"/>
+  <path d="M29 36l11-11m-8 0h8v8" stroke="#182111" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="58" y="40" fill="#f2f4ee" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">link<tspan fill="#abb4a8" font-weight="400">pad</tspan></text>
+  <text x="22" y="88" fill="#778176" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">WORKSPACE</text>
+  <rect x="12" y="103" width="128" height="36" rx="8" fill="#202820"/>
+  <rect x="12" y="103" width="3" height="36" rx="1.5" fill="#b9f45e"/>
+  <path d="M29 121h17m-7-7 7 7-7 7" stroke="#b9f45e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="55" y="125" fill="#e7ece3" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="600">Share files</text>
+  <circle cx="128" cy="121" r="9" fill="#303a30"/>
+  <text x="125" y="124" fill="#b9f45e" font-family="Segoe UI,Arial,sans-serif" font-size="8">0</text>
+  <rect x="13" y="458" width="126" height="58" rx="9" fill="#1a201b" stroke="#303830"/>
+  <circle cx="27" cy="479" r="3" fill="#b9f45e"/>
+  <text x="37" y="482" fill="#788276" font-family="Segoe UI,Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1">THIS PC</text>
+  <text x="23" y="499" fill="#e6ebe2" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="600">YOUR COMPUTER</text>
+
+  <path d="M152 49h688" stroke="#292f2a"/>
+  <text x="180" y="30" fill="#8b9589" font-family="Segoe UI,Arial,sans-serif" font-size="10">Workspace</text>
+  <path d="M232 25l4 4-4 4" stroke="#596357" stroke-width="1.3"/>
+  <text x="246" y="30" fill="#f2f4ee" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="600">Share files</text>
+  <rect x="684" y="13" width="123" height="24" rx="12" fill="#1b211c" stroke="#313a31"/>
+  <circle cx="699" cy="25" r="3" fill="#b9f45e"/>
+  <text x="709" y="28" fill="#b8c2b4" font-family="Segoe UI,Arial,sans-serif" font-size="9">Waiting for your phone</text>
+  <circle cx="824" cy="25" r="12" fill="#283128"/>
+  <text x="820" y="29" fill="#b9f45e" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="700">P</text>
+
+  <text x="181" y="93" fill="#b9f45e" font-family="Segoe UI,Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.8">●  YOUR PRIVATE LOCAL NETWORK</text>
+  <text x="179" y="133" fill="#f2f4ee" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" letter-spacing="-1.7">Move things.</text>
+  <text x="179" y="164" fill="#9ba499" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" letter-spacing="-1.7">Keep moving.</text>
+  <text x="181" y="188" fill="#a4ada2" font-family="Segoe UI,Arial,sans-serif" font-size="10">Send files and notes between your PC and phone. No cloud. No fuss.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="518" y="70" width="294" height="188" rx="12" fill="#1b201c" stroke="#343c34"/>
+    <rect x="534" y="86" width="26" height="26" rx="7" fill="#222b22" stroke="#3b4937"/>
+    <path d="M542 93h10v11h-10z" stroke="#b9f45e" stroke-width="1.5"/>
+    <rect x="722" y="87" width="73" height="18" rx="5" fill="#342a1d"/>
+    <text x="731" y="99" fill="#edc27a" font-family="Segoe UI,Arial,sans-serif" font-size="7" font-weight="700" letter-spacing=".8">READY TO PAIR</text>
+    <text x="534" y="130" fill="#899387" font-family="Segoe UI,Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">YOUR PC</text>
+    <text x="534" y="147" fill="#edf1e9" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Your Windows PC</text>
+    <rect x="534" y="157" width="262" height="48" rx="7" fill="#111411" stroke="#303830"/>
+    <text x="546" y="173" fill="#899387" font-family="Segoe UI,Arial,sans-serif" font-size="7" font-weight="700" letter-spacing="1">PHONE PAIRING CODE</text>
+    <text x="546" y="193" fill="#b9f45e" font-family="Consolas,monospace" font-size="16" font-weight="700" letter-spacing="3">••••••</text>
+    <rect x="754" y="169" width="30" height="23" rx="5" fill="#1e261e" stroke="#465144"/>
+    <text x="761" y="184" fill="#dbe4d7" font-family="Segoe UI,Arial,sans-serif" font-size="8">Copy</text>
+    <text x="534" y="218" fill="#899387" font-family="Segoe UI,Arial,sans-serif" font-size="7.5">Scan the QR code with your phone camera to connect automatically.</text>
+    <path d="M534 228h262" stroke="#343b34"/>
+    <rect x="534" y="235" width="17" height="16" rx="3" fill="url(#qr)" opacity=".9"/>
+    <path d="M538 239h4v4h-4zm7 0h3v2h-3zm-7 6h2v2h-2zm5-1h4v3h-4z" fill="#14200e"/>
+    <text x="558" y="245" fill="#c6cec2" font-family="Segoe UI,Arial,sans-serif" font-size="7.5">QR pairing ready · Same Wi-Fi</text>
+  </g>
+
+  <text x="181" y="286" fill="#b9f45e" font-family="Segoe UI,Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.6">QUICK TRANSFER</text>
+  <text x="180" y="309" fill="#f2f4ee" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Drop it here.</text>
+  <text x="689" y="305" fill="#9ba598" font-family="Segoe UI,Arial,sans-serif" font-size="8">⌑  Stays on your Wi-Fi</text>
+
+  <rect x="180" y="324" width="235" height="126" rx="11" fill="#191e1a" stroke="#303830"/>
+  <rect x="198" y="342" width="28" height="28" rx="8" fill="#252e23"/>
+  <path d="M212 361v-11m-5 5 5-5 5 5m-10 8h10" stroke="#b9f45e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="198" y="394" fill="#edf1e9" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Add a file</text>
+  <text x="198" y="410" fill="#929c90" font-family="Segoe UI,Arial,sans-serif" font-size="9">Pick a file from this device</text>
+  <text x="198" y="435" fill="#758073" font-family="Segoe UI,Arial,sans-serif" font-size="8">Up to 2 GB · Any file type</text>
+
+  <rect x="429" y="324" width="383" height="126" rx="11" fill="#191e1a" stroke="#303830"/>
+  <rect x="447" y="342" width="28" height="28" rx="8" fill="#2a2420"/>
+  <text x="456" y="361" fill="#efbd9a" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">T</text>
+  <text x="486" y="360" fill="#edf1e9" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Send a note</text>
+  <rect x="447" y="379" width="347" height="42" rx="6" fill="#121512" stroke="#2b322c"/>
+  <text x="458" y="397" fill="#697367" font-family="Segoe UI,Arial,sans-serif" font-size="9">Type a message to send to your paired device…</text>
+  <text x="448" y="438" fill="#778174" font-family="Consolas,monospace" font-size="8">0 / 20,000</text>
+  <rect x="728" y="427" width="66" height="20" rx="5" fill="#b9f45e"/>
+  <text x="738" y="440" fill="#19220f" font-family="Segoe UI,Arial,sans-serif" font-size="8" font-weight="700">Send note  ↗</text>
+
+  <text x="181" y="479" fill="#b9f45e" font-family="Segoe UI,Arial,sans-serif" font-size="7" font-weight="700" letter-spacing="1.4">ACTIVITY</text>
+  <text x="180" y="499" fill="#e9eee5" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">Recent transfers</text>
+  <rect x="304" y="486" width="18" height="18" rx="9" fill="#242a24"/>
+  <text x="311" y="498" fill="#aab4a7" font-family="Segoe UI,Arial,sans-serif" font-size="8">0</text>
+  <path d="M180 514h632" stroke="#272e28"/>
+  <rect x="180" y="525" width="632" height="2" rx="1" fill="url(#dots)" opacity=".8"/>
+</svg>
