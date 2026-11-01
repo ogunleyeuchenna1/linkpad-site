@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ogunleyeuchenna1.github.io/linkpad-site/sitemap.xml

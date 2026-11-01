@@ -4,8 +4,56 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101311">
-  <meta name="description" content="LinkPad connects your Android phone and Windows PC over Wi-Fi for quick file sharing, notes, and typing with your phone keyboard.">
+  <meta name="description" content="Share files and notes between Windows and Android over local Wi-Fi, type on your PC from your phone, and connect an iPhone by scanning the QR code.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://ogunleyeuchenna1.github.io/linkpad-site/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LinkPad">
+  <meta property="og:title" content="LinkPad — Share files between your phone and PC">
+  <meta property="og:description" content="Transfer files and notes over Wi-Fi, use your phone keyboard on Windows, and connect with QR pairing.">
+  <meta property="og:url" content="https://ogunleyeuchenna1.github.io/linkpad-site/">
+  <meta property="og:image" content="https://ogunleyeuchenna1.github.io/linkpad-site/app-preview.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LinkPad — your phone and PC, in sync">
+  <meta name="twitter:description" content="Share files and notes over local Wi-Fi and type on your PC from your phone.">
+  <meta name="twitter:image" content="https://ogunleyeuchenna1.github.io/linkpad-site/app-preview.svg">
   <title>LinkPad — your phone and PC, in sync</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "LinkPad",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Windows, Android, iOS (browser)",
+        "description": "A local Wi-Fi sharing app for transferring files and notes between a Windows PC and phone, with phone-to-PC keyboard input and QR pairing.",
+        "url": "https://ogunleyeuchenna1.github.io/linkpad-site/",
+        "downloadUrl": "https://ogunleyeuchenna1.github.io/linkpad-site/#downloads",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "creator": { "@id": "https://ogunleyeuchenna1.github.io/linkpad-site/about.html#founder" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://ogunleyeuchenna1.github.io/linkpad-site/#organization",
+        "name": "LinkPad",
+        "url": "https://ogunleyeuchenna1.github.io/linkpad-site/",
+        "founder": { "@id": "https://ogunleyeuchenna1.github.io/linkpad-site/about.html#founder" },
+        "email": "mailto:ogunleyeuchenna@gmail.com"
+      },
+      {
+        "@type": "VideoObject",
+        "name": "LinkPad product walkthrough",
+        "description": "A walkthrough of LinkPad, a local Wi-Fi app for sharing files and notes between a phone and Windows PC.",
+        "thumbnailUrl": "https://ogunleyeuchenna1.github.io/linkpad-site/app-preview.svg",
+        "contentUrl": "https://ogunleyeuchenna1.github.io/linkpad-site/linkpad.mp4",
+        "embedUrl": "https://ogunleyeuchenna1.github.io/linkpad-site/#product-video",
+        "publisher": { "@id": "https://ogunleyeuchenna1.github.io/linkpad-site/#organization" },
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
   <style>
     :root {
       color-scheme: dark;
@@ -142,6 +190,7 @@
     }
 
     .app-preview-frame img { display: block; width: 100%; height: auto; }
+    #product-video video { display: block; width: 100%; height: auto; max-height: 70vh; border: 1px solid var(--line); border-radius: 15px; background: #080a08; }
 
     .trust-row {
       display: flex;
@@ -294,6 +343,8 @@
       .card { min-height: 0; }
       .download-panel { padding: 24px; }
       .download-buttons, .download-buttons .button { width: 100%; }
+      footer { align-items: flex-start; }
+      footer nav { flex-wrap: wrap; gap: 10px 16px; }
       section { padding-block: 58px; }
     }
 
@@ -312,6 +363,8 @@
       <a href="#features">What it does</a>
       <a href="#how-it-works">How it works</a>
       <a href="#downloads">Downloads</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
     </nav>
   </header>
 
@@ -342,6 +395,18 @@
       <span><b aria-hidden="true">✓</b> Files up to 2 GB</span>
       <span><b aria-hidden="true">✓</b> No cloud account</span>
     </div>
+
+    <section class="wrap" id="product-video">
+      <div class="section-heading">
+        <p class="eyebrow">See LinkPad in action</p>
+        <h2>A quick look at phone-to-PC sharing</h2>
+        <p>Watch the LinkPad walkthrough to see how the app brings local file sharing and phone keyboard input together.</p>
+      </div>
+      <video controls playsinline preload="metadata" poster="app-preview.svg" width="1280" height="720" aria-label="LinkPad product walkthrough video">
+        <source src="linkpad.mp4" type="video/mp4">
+        Your browser does not support HTML video. <a href="linkpad.mp4">Open the LinkPad video</a>.
+      </video>
+    </section>
 
     <section class="wrap" id="features">
       <div class="section-heading">
@@ -522,6 +587,14 @@
 
   <footer class="wrap">
     <span>LinkPad · A local connection between your phone and PC.</span>
+    <nav aria-label="Footer">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="cookies.html">Cookies</a>
+      <a href="terms.html">Terms</a>
+    </nav>
     <span>Windows + Android + iPhone browser · No cloud account</span>
   </footer>
 </body>
