@@ -30,8 +30,7 @@ a:hover { color: #d3ff9a; }
   border-bottom: 1px solid var(--line);
 }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--text); font-size: 19px; font-weight: 780; letter-spacing: -.04em; text-decoration: none; }
-.brand-mark { display: grid; width: 32px; height: 32px; place-items: center; border-radius: 10px; background: var(--lime); }
-.brand-mark svg { width: 21px; height: 21px; }
+.brand-mark { display: grid; width: 32px; height: 32px; place-items: center; border-radius: 10px; background: var(--lime); color: #17200f; font-size: 19px; line-height: 1; }
 nav { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; }
 nav a { color: var(--muted); font-size: 13px; text-decoration: none; }
 nav a:hover, nav a[aria-current="page"] { color: var(--text); }
